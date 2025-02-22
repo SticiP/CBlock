@@ -1,0 +1,66 @@
+# ================ CLion-specific ==================
+# Directorul de build al CLion
+cmake-build-*
+
+# Fișierele de configurare specifice utilizatorului
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# Fișiere temporare ale CLion
+*.iws
+
+# Cache-uri ale CLion
+.idea/.name
+.idea/compiler.xml
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+
+# ================ CMake-specific ==================
+# Directoarele generate de CMake
+CMakeLists.txt.user
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# ================ Compilator-specific (MinGW, GCC) ==================
+# Obiecte și executabile
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# Directorul de build general
+build/
+out/
+
+# Fișiere generate de linker
+*.ilk
+*.pdb
+
+# ================ Sisteme de operare ==================
+# Fișiere ascunse ale sistemului de operare
+thumbs.db
+.DS_Store
+
+# ================ Altele ==================
+# Fișiere temporare
+*.tmp
+*.temp
+
+# Fișiere de log
+*.log
+
+# Fișiere de backup
+*.bak
+*.swp
